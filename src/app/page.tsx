@@ -1,4 +1,4 @@
-import { AboutMe, Experience, HeroSection, Skills } from "@/components";
+import { AboutMe, Experience, HeroSection, Projects, Skills } from "@/components";
 import Image from "next/image";
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
       <Skills />
       <Experience />
       <AboutMe />
+      <Projects />
     </div>
   );
 }
