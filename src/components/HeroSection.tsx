@@ -12,8 +12,8 @@ const socialMediaIcons = [
 
 export function HeroSection() {
   return (
-    <div className="flex md:flex-row flex-col-reverse justify-between items-center gap-10 md:mt-10 md:px-56 px-5 md:mb-20 mb-10">
-      <div className="md:max-w-xl">
+    <div className="flex lg:flex-row flex-col-reverse justify-between items-center gap-10 md:mt-10 md:px-56 px-5 md:mb-20 mb-10">
+      <div className="lg:max-w-xl">
         <div className="text-outlined-01 mb-10">
           Hello I’am <span className="font-extrabold">Evren Shah.</span>{" "}
           <span className="font-extrabold">Frontend</span> Developer Based In{" "}

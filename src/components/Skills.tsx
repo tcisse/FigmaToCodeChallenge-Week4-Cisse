@@ -19,10 +19,10 @@ const skills = [
 export function Skills() {
   return (
     <div id="skills" className="md:mb-20 mb-10">
-      <h1 className="text-center text-display-01 mb-20">
-        My <span className="font-extrabold">Skills</span>{" "}
+      <h1 className="text-center md:text-display-01 text-display-02 mb-20">
+        My <span className="font-extrabold">Skills</span>
       </h1>
-      <div className="grid md:grid-cols-5 grid-cols-2 md:max-w-6xl mx-auto md:gap-10 gap-5">
+      <div className="grid md:grid-cols-5 grid-cols-2 md:max-w-6xl max-w-xs mx-auto md:gap-10 gap-5">
         {skills.map((index) => (
           <div
             key={index.name}

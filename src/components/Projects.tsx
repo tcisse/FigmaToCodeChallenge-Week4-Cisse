@@ -10,7 +10,7 @@ export function Projects() {
         My <span className="font-extrabold ">Projects</span>
       </h1>
       <div className="md:max-w-6xl max-w-xs mx-auto md:space-y-20 space-y-10">
-        <div className="flex md:flex-row flex-col items-center md:space-x-24">
+        <div className="flex md:flex-row flex-col items-center lg:space-x-24">
           <Image
             src="/assets/images/projet-1.svg"
             width={530}
@@ -42,7 +42,7 @@ export function Projects() {
             </Link>
           </div>
         </div>
-        <div className="flex md:flex-row flex-col-reverse items-center md:space-x-24">
+        <div className="flex md:flex-row flex-col-reverse items-center lg:space-x-24">
           <div className="flex flex-col space-y-5">
             <span className="text-white text-heading-01 font-extrabold">
               02
@@ -76,7 +76,7 @@ export function Projects() {
             className="md:mb-0 mb-5 rounded-xl"
           />
         </div>
-        <div className="flex md:flex-row flex-col items-center md:space-x-24">
+        <div className="flex md:flex-row flex-col items-center lg:space-x-24">
           <Image
             src="/assets/images/projet-3.png"
             width={530}

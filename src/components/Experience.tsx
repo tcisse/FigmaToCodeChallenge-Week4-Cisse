@@ -8,7 +8,7 @@ export function Experience() {
       <h1 className="text-white text-center text-display-01 mb-20">
         My <span className="font-extrabold ">Experience</span>
       </h1>
-      <div className="flex flex-col space-y-6 md:px-0 px-5">
+      <div className="flex flex-col space-y-6 lg:px-0 md:px-5 px-5">
         <div className="border border-neutral w-full rounded-md p-5 max-w-6xl mx-auto hover:bg-zinc-800">
           <div className="flex md:flex-row flex-col justify-between mb-5">
             <div className="flex items-center space-x-2 md:mb-0 mb-3">

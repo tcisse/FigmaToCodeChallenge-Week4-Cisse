@@ -11,7 +11,7 @@ const socialMediaIcons = [
 
 export function Contact() {
   return (
-    <div className="py-10 bg-white">
+    <div id="contact" className="py-10 bg-white">
       <div className="md:max-w-6xl max-w-xs mx-auto flex md:flex-row items-center flex-col md:space-x-10">
         <div className="w-full flex flex-col space-y-5 mb-5">
           <input
