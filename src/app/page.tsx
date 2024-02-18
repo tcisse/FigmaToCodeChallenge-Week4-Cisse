@@ -1,4 +1,4 @@
-import { AboutMe, Experience, HeroSection, Projects, Skills, Testimonial } from "@/components";
+import { AboutMe, Contact, Experience, HeroSection, Projects, Skills, Testimonial } from "@/components";
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
       <AboutMe />
       <Projects />
       <Testimonial />
+      <Contact />
     </div>
   );
 }

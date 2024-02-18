@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.invisible-text {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #191f2a
+  }
+  
