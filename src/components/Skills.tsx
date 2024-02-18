@@ -18,7 +18,7 @@ const skills = [
 
 export function Skills() {
   return (
-    <div className="md:mb-20 mb-10">
+    <div id="skills" className="md:mb-20 mb-10">
       <h1 className="text-center text-display-01 mb-20">
         My <span className="font-extrabold">Skills</span>{" "}
       </h1>

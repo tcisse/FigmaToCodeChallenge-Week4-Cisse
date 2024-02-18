@@ -1,5 +1,4 @@
-import { AboutMe, Experience, HeroSection, Projects, Skills } from "@/components";
-import Image from "next/image";
+import { AboutMe, Experience, HeroSection, Projects, Skills, Testimonial } from "@/components";
 
 export default function Home() {
   return (
@@ -9,6 +8,7 @@ export default function Home() {
       <Experience />
       <AboutMe />
       <Projects />
+      <Testimonial />
     </div>
   );
 }

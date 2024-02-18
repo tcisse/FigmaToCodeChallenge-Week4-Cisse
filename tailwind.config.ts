@@ -79,6 +79,13 @@ const config: Config = {
             letterSpacing: "-2%",
           },
         ],
+        "heading-06": [
+          "16px",
+          {
+            lineHeight: "20px",
+            letterSpacing: "-2%",
+          },
+        ],
         "p-01": [
           "20px",
           {
@@ -123,10 +130,13 @@ const config: Config = {
           500: "#71717a",
           800: "#27272a",
         },
-        neutral : "#404040",
+        neutral: "#404040",
         error: {
           500: "#ef4444",
-        }
+        },
+      },
+      boxShadow: {
+        'custom': '0px 6px 8px -6px rgba(24, 39, 75, 0.12), 0px 8px 16px -6px rgba(24, 39, 75, 0.08)',
       },
     },
   },

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export function Projects() {
   return (
-    <div className="bg-black py-10">
+    <div id="projects" className="bg-black py-20">
       <h1 className="text-white text-center text-display-01 mb-10">
         My <span className="font-extrabold ">Projects</span>
       </h1>
