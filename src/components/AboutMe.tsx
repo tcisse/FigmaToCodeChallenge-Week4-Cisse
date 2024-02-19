@@ -4,7 +4,7 @@ import Image from "next/image";
 export function AboutMe() {
   return (
     <div id="about-me" className="bg-white py-10">
-      <div className="flex md:flex-row flex-col md:space-x-10 md:max-w-6xl max-w-xs mx-auto">
+      <div className="flex md:flex-row flex-col md:space-x-10 md:max-w-6xl md:px-0 px-5 mx-auto">
         <Image
           src="/assets/images/about-me.svg"
           width={524}

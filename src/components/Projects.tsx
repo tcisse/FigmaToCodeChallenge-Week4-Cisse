@@ -8,7 +8,7 @@ export function Projects() {
       <h1 className="text-white text-center text-display-01 mb-20">
         My <span className="font-extrabold ">Projects</span>
       </h1>
-      <div className="md:max-w-6xl max-w-xs mx-auto md:space-y-20 space-y-10">
+      <div className="md:max-w-6xl mx-auto md:space-y-20 space-y-10 md:px-0 px-5">
         <div className="flex md:flex-row flex-col items-center lg:space-x-24">
           <Image
             src="/assets/images/projet-1.svg"
