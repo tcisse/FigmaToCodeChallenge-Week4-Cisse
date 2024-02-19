@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import { FaFacebook, FaReddit, FaTwitter } from "react-icons/fa";
 import { BiLogoDiscord } from "react-icons/bi";
