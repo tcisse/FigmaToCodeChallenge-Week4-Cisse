@@ -16,7 +16,7 @@ export function HeroSection() {
       <div className="lg:max-w-xl">
         <div className="text-outlined-01 mb-10">
           Hello I’am <span className="font-extrabold">Evren Shah.</span>{" "}
-          <span className="font-extrabold">Frontend</span> Developer Based In{" "}
+          <span className="font-extrabold">Frontend</span> <span className="invisible-text">Developer</span> Based In{" "}
           <span className="font-extrabold">India.</span>
         </div>
         <p className="text-p-02 text-zinc-500 md:mb-28 mb-10">

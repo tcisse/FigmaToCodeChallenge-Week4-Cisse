@@ -6,7 +6,7 @@ import Link from "next/link";
 export function Projects() {
   return (
     <div id="projects" className="bg-black py-20">
-      <h1 className="text-white text-center text-display-01 mb-10">
+      <h1 className="text-white text-center text-display-01 mb-20">
         My <span className="font-extrabold ">Projects</span>
       </h1>
       <div className="md:max-w-6xl max-w-xs mx-auto md:space-y-20 space-y-10">
