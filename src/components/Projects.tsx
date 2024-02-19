@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { FaRegShareFromSquare } from "react-icons/fa6";
 import Link from "next/link";
 
 export function Projects() {

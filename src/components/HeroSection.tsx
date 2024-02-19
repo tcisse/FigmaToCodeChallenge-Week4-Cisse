@@ -30,9 +30,9 @@ export function HeroSection() {
             {socialMediaIcons.map((index) => (
               <div
                 key={index.name}
-                className="w-14 h-14 border-2 bg-white border-black flex justify-center items-center rounded-md"
+                className="icon-hover hover:bg-black w-14 h-14 border-2 bg-white border-black flex justify-center items-center rounded-md"
               >
-                <div>{index.icon}</div>
+                <div className="icon">{index.icon}</div>
               </div>
             ))}
           </div>

@@ -1,6 +1,8 @@
 import React from "react";
 import { FaFacebook, FaReddit, FaTwitter } from "react-icons/fa";
 import { BiLogoDiscord } from "react-icons/bi";
+import { motion } from "framer-motion";
+import { container, item } from "../../animation";
 
 const socialMediaIcons = [
   { icon: <FaFacebook className="w-5 h-5" />, name: "Facebook" },
@@ -45,9 +47,9 @@ export function Contact() {
               {socialMediaIcons.map((index) => (
                 <div
                   key={index.name}
-                  className="w-14 h-14 border-2 bg-white border-black flex justify-center items-center rounded-md"
+                  className="icon-hover hover:bg-black w-14 h-14 border-2 bg-white border-black flex justify-center items-center rounded-md"
                 >
-                  <div>{index.icon}</div>
+                  <div className="icon">{index.icon}</div>
                 </div>
               ))}
             </div>
@@ -55,16 +57,21 @@ export function Contact() {
         </div>
         <div>
           <h1 className="mb-5 md:text-display-01 text-display-02 font-extrabold">
-            Let’s <span className="invisible-text font-extrabold">talk</span> for Something special
+            Let’s <span className="invisible-text font-extrabold">talk</span>{" "}
+            for Something special
           </h1>
           <p className="text-p-02 text-zinc-500 mb-5">
             I seek to push the limits of creativity to create high-engaging,
             user-friendly, and memorable interactive experiences.
           </p>
-          <h3 className=" md:text-heading-03 text-heading-05 font-semibold mb-4">
-            Youremail@gmail.com
-          </h3>
-          <h3 className="md:text-heading-03 text-heading-05 font-semibold">1234567890</h3>
+          <motion.ul variants={container} initial="hidden" animate="show" className="">
+            <motion.li variants={item} className="md:text-heading-03 text-heading-05 font-semibold mb-4">
+              Youremail@gmail.com
+            </motion.li>
+            <motion.li variants={item} className="md:text-heading-03 text-heading-05 font-semibold">
+              1234567890
+            </motion.li>
+          </motion.ul>
         </div>
       </div>
     </div>
